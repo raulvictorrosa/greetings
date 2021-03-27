@@ -3,7 +3,7 @@
 ## Requisitos
 
 - [Python](https://www.python.org/)
-  - Os pacotes [hug](https://pypi.org/project/hug/) e[hug_middleware_cors](https://pypi.org/project/hug_middleware_cors/).
+  - Os pacotes [hug](https://pypi.org/project/hug/) e [hug_middleware_cors](https://pypi.org/project/hug_middleware_cors/).
 - [NodeJS](https://nodejs.org/)
 
 Para executar a api em Python basta executar o comando `hug -f main.py` que ele vai rodar em localhost na port `8000`.
