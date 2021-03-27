@@ -23,7 +23,7 @@ export default function App() {
   const [greeting, setGreeting] = useState(null);
 
   const updateGreeting = async () => {
-    const { data: greet } = await axios.get(`//localhost:8000/greeting`);
+    const { data: greet } = await axios.get(`//localhost:8000/saudacao`);
     setGreeting(greet.message);
     setBkgColor(greet.color);
   };
